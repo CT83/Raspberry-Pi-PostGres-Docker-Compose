@@ -12,10 +12,10 @@ Note, this assumes that you have a gentle grasp of what Docker Compose and Conta
 
 
 ## Setup
-1. [Install Docker and Docker compose on the Raspberry Pi]( https://dev.to/rohansawant/installing-docker-and-docker-compose-on-the-raspberry-pi-in-5-simple-steps-3mgl)
+1. [Install Docker and Docker Compose on the Raspberry Pi]( https://dev.to/rohansawant/installing-docker-and-docker-compose-on-the-raspberry-pi-in-5-simple-steps-3mgl)
 2. Clone the [repo](https://github.com/CT83/Raspberry-Pi-PostGres-Docker-Compose) which contains the Compose file `git clone https://github.com/CT83/Raspberry-Pi-PostGres-Docker-Compose.git`
 2. Checkout the postgresql.conf, and configure  `listen_addresses` accordingly. By default, the container will be open to all users on the port *5432*.
-3. `sudo docker-compose up --build -d` _Up_ the container.
+3. _Up_ the container. `sudo docker-compose up --build -d` 
 
 The container is at **<IP>:5432** with password _password@7979_. You can change this in the [docker-compose.yml](https://github.com/CT83/Raspberry-Pi-PostGres-Docker-Compose/blob/master/docker-compose.yml).
 Now, you can treat this like a full fledged PostGres server and do your PG-Admin Stuff. 😇
