@@ -26,5 +26,4 @@ Use this to build a _truly decentralized off-site infrastructure_ where each con
 ### Credits
 This would have been impossible without the base image created by [Tobias H](https://github.com/Tob1asDocker). 
 *I just added the docker-compose and a conf to allow other network hosts to connect to it*
-You can check it out [here](
-https://github.com/Tob1asDocker/rpi-postgresql)
+You can check it out [here](https://github.com/Tob1asDocker/rpi-postgresql)
