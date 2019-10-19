@@ -20,13 +20,11 @@ Note, this assumes that you have a gentle grasp of what Docker Compose and Conta
 The container is at **<IP>:5432** with password _password@7979_. You can change this in the [docker-compose.yml](https://github.com/CT83/Raspberry-Pi-PostGres-Docker-Compose/blob/master/docker-compose.yml).
 Now, you can treat this like a full fledged PostGres server and do your PG-Admin Stuff. 😇
 
-Also, note that the PostGres Server can be accessed by any device on the network! 
+The PostGres Server can be accessed by any device on the network! 
 Use this to build a _truly decentralized off-site infrastructure_ where each container runs on a separate low powered Raspberry Pi Zero, maybe?
 
 ### Credits
-This would have been impossible without the base image created by [Tobias H.](https://github.com/Tob1asDocker). 
-
+This would have been impossible without the base image created by [Tobias H](https://github.com/Tob1asDocker). 
 *I just added the docker-compose and a conf to allow other network hosts to connect to it*
-
 You can check it out [here](
 https://github.com/Tob1asDocker/rpi-postgresql)
